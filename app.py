@@ -324,15 +324,7 @@ with st.sidebar:
         format_func=lambda x: f"{nav_icons[x]}  {x}"
     )
 
-    st.markdown("<div style='flex:1'></div>", unsafe_allow_html=True)
-    st.markdown("""
-    <div style="position:absolute;bottom:1.5rem;left:1rem;right:1rem;">
-        <div style="padding:0.75rem 1rem;background:#0D1117;border:1px solid #21262D;border-radius:8px;">
-            <div style="font-size:0.7rem;color:#8B949E;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.2rem;">Model</div>
-            <div style="font-size:0.85rem;color:#A78BFA;font-weight:500;">claude-sonnet-4-6</div>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+
 
 
 # ── Pages ─────────────────────────────────────────────────────────────────────
